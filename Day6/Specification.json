@@ -1,0 +1,43 @@
+{
+    "Dimensions" : {
+        "overall_length" : [{"type" : "mm"}, {"value": 3500}],
+        "overall_width" : [{"type": "mm"}, {"value": 1600 }],
+        "overall_height": [{"type": "mm"}, {"value" : 1490}],
+        "wheelbase" : [{"type": "mm"}, {"value": 2360}],
+        "track width" : [{"front" : {"type": "mm", "value":1405}},
+                        {"rear" : {"type": "mm", "value":1400} }],
+        "Minimum_tuning_radius" : {"type": "m", "value":4.5},
+        "Minimum_ground_clearance" : {"type": "mm", "value":170}
+    },
+    "Capacities" : {
+        "seating_capacity" : {"persons" : 5},
+        "fuel_tank_capacity" : {"litres": 35}
+    },
+    "engine" : {
+        "type" : "KB-Series",
+        "NoOfCylinders" : 3,
+        "NoOfValves" : 12,
+        "Capacity" : {"cc/cm": 998},
+        "Bose_stroke": [{"type": "mm"}, {"value":"73.0x79.5"} ],
+        "compression-ratio" : "10:1",
+        "Maximum-Power" : {"type": "PS/rpm", "value" : "67/6,200"},
+        "Maximum-Torque" : {"type": "NM/rpm", "value" : "90/3,500"},
+        "Fuel_Distribution" : "Multipoint Injection"
+    },
+    
+    "Transmission" : {"Type" : "5-speed MT"},
+    "Chassels" : {
+        "Steering" : ["Rack & Pinion", "Power assisted"],
+        "Brakes" : [{"Front" : "Ventilated disc"}, {"Rear": "Drums" }],
+        "Suspension" : [{"Front" : ["MacPherson strut", "coil spring"]}, {"Rear": ["isolated trailling link", "coil spring"] }],
+        "shock absorbers" : "Gas Filled",
+        "Tyre(tubeless)" : "155/80R13"
+    },
+    "Weights": {
+        "Kerb weight(min, with full options)" : [{"type": "kg", "value": "860-880"}],
+        "Gross Vehicle weight": [{"type": "kg"}, {"value": 1320}]
+    }
+
+   
+
+}
